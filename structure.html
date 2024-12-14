@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Management Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <h1>Real-time Water Consumption</h1>
+    <!-- Key Metrics -->
+    <div class="metrics">
+      <div class="metric">
+        <h2>9.7% Water</h2>
+        <p>Water Consumption</p>
+      </div>
+      <div class="metric">
+        <h2>56% Water</h2>
+        <p>Budget</p>
+      </div>
+      <div class="metric">
+        <h2>2.8% Alerts</h2>
+        <p>System Alerts</p>
+      </div>
+    </div>
+
+    <!-- Current Usage & Status -->
+    <div class="charts">
+      <canvas id="usageChart"></canvas>
+      <canvas id="budgetChart"></canvas>
+    </div>
+
+    <!-- Budget Summary -->
+    <div class="summary">
+      <div class="box">
+        <h2>2.31</h2>
+        <p>Budget</p>
+      </div>
+      <div class="box">
+        <h2>30%</h2>
+        <p>Water Usage</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
