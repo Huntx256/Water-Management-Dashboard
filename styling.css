@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Metrics */
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.metric {
+  background-color: #0077c8;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.metric h2 {
+  font-size: 2em;
+}
+
+.metric p {
+  font-size: 0.9em;
+}
+
+/* Charts */
+.charts {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+canvas {
+  width: 45%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Summary */
+.summary {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.box h2 {
+  font-size: 2.5em;
+  color: #0077c8;
+}
+
+.box p {
+  font-size: 1.1em;
+}
